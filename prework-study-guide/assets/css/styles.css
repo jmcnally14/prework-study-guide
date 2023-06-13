@@ -133,13 +133,46 @@ main .main__box__container {
 .box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: var(--paddingSm);
+    gap: 0.5rem;
+    /* justify-content: center;
+    align-items: center; */
+    padding: var(--paddingLg);
     /* border: 1px solid var(--primaryColor); */
     border-radius: 15px;
     box-shadow: var(--boxShadow);
     letter-spacing: 1.5;
+}
+
+.box h3 {
+    letter-spacing: 2px;
+    font-size: var(--fontLg);
+}
+
+.box ul {
+    letter-spacing: 2px;
+    font-size: var(--fontMd);
+    list-style-type: disc;
+    padding: var(--paddingMd);
+}
+
+.box h3 {
+    letter-spacing: 2px;
+    font-size: var(--fontLg);
+}
+
+.box h3 {
+    letter-spacing: 2px;
+    font-size: var(--fontLg);
+}
+
+.box h3 {
+    letter-spacing: 2px;
+    font-size: var(--fontLg);
+}
+
+.box h3 {
+    letter-spacing: 2px;
+    font-size: var(--fontLg);
 }
 
 .box h3 {
