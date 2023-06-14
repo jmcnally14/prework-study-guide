@@ -22,12 +22,16 @@ img {
     white-space: nowrap;
 }
 
+.center {
+    text-align: center;
+}
+
 
 /* custom variables */
 
 :root {
     /* color */
-    --primaryColor: darkblue;
+    --primaryColor: rgb(1, 1, 125);
     --foregroundColor: whitesmoke;
 
     /* box shadow */
@@ -75,19 +79,15 @@ header {
     color: var(--foregroundColor);
     position: sticky;
     top: 0;
-    /* margin-bottom: 2rem; */
 }
 
 header .logo {
     display: flex;
     align-items: center;
     gap: 1rem;
-    /* width: 80px; */
 }
 
-/* header .logo img {
-    border-radius: 50%;
-} */
+
 
 header .logo h1 {
     font-size: var(--fontMd);
@@ -134,10 +134,7 @@ main .main__box__container {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    /* justify-content: center;
-    align-items: center; */
     padding: var(--paddingLg);
-    /* border: 1px solid var(--primaryColor); */
     border-radius: 15px;
     box-shadow: var(--boxShadow);
     letter-spacing: 1.5;
